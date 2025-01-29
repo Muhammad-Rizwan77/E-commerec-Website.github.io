@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerec Store</title>
+    <link rel="stylesheet" href="./store.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./coming.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!----- nav1 start ----->
+
+        <nav class="nav1">
+            <div class="left" data-aos="fade-right" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                <span>Welcome to My E-shop</span>
+                <a href="./login.html">Register</a>
+            </div>
+            <div class="right" data-aos="fade-left" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </nav>
+
+        <!----- nav1 end ----->
+
+        <!----- nav2 start ----->
+        <nav class="nav2">
+            <div class="nav2-left">
+                <i class="fa-solid fa-phone"></i> +91 874123503..
+                <i class="fa-solid fa-envelope"></i> nd1234@gmail.com
+            </div>
+            <div class="nav2-center">
+                <h1>Apni <span>Dukan</span></h1>
+                <p>Everything for kids world</p>
+            </div>
+            <div class="nav2-right">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+
+        <!----- nav2 end ----->
+
+        <!----- nav3 start ----->
+
+        <nav class="nav3">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-user"></i>Boy</a></li>
+                <li><a href="#"><i class="fa-solid fa-users"></i>Accessories</a></li>
+                <li><a href="#"><i class="fa-solid fa-anchor"></i>Toys<i class="fa-solid fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-clipboard"></i>Wooden</a></li>
+                        <li><a href=""><i class="fa-regular fa-circle"></i>Plastic</a></li>
+                        <li><a href=""><i class="fa-solid fa-gavel"></i>Iron</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="fa-solid fa-calendar-check"></i>Special</a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Find</a></li>
+            </ul>
+        </nav>
+
+        <!----- nav3 end ----->
+
+        <!----- featured start ----->
+
+        <section class="featured">
+            <div class="featured-text">
+                <button id="comingSoonBtn" data-aos="fade-right" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Coming soon</button>
+                <div id="comingSoonContainer"></div>
+                <h2 data-aos="fade-left" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Our new designs</h2>
+            </div>
+        </section>
+
+        <!----- featured end ----->
+
+    </header>
+
+    <!----- Latest start ----->
+
+    <section class="latest">
+        <div class="product-intro">
+            <h1 data-aos="fade-right" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">New <span>Arrivals</span></h1>
+            <p data-aos="fade-left" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem?</p>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="./imgs/s2.jpg" alt="">
+                </div>
+                <h1>Brandedn Shoes</h1>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$500.00</p>
+                    <button>add to cart</button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./imgs/s3.jpg" alt="">
+                </div>
+                <h1>Brandedn Shoes</h1>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$500.00</p>
+                    <button>add to cart</button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./imgs/s8.jpg" alt="">
+                </div>
+                <h1>Brandedn Shoes</h1>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$500.00</p>
+                    <button>add to cart</button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./imgs/s2.jpg" alt="">
+                </div>
+                <h1>Brandedn Shoes</h1>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$500.00</p>
+                    <button>add to cart</button>
+                </span>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="./imgs/s2.jpg" alt="">
+                </div>
+                <h1>Brandedn Shoes</h1>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$500.00</p>
+                    <button>add to cart</button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./imgs/s3.jpg" alt="">
+                </div>
+                <h1>Brandedn Shoes</h1>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$500.00</p>
+                    <button>add to cart</button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./imgs/s8.jpg" alt="">
+                </div>
+                <h1>Brandedn Shoes</h1>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$500.00</p>
+                    <button>add to cart</button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./imgs/s2.jpg" alt="">
+                </div>
+                <h1>Brandedn Shoes</h1>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$500.00</p>
+                    <button>add to cart</button>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!----- Latest end ----->
+
+    <!----- popular product start ----->
+
+    <section class="latest">
+        <div class="product-intro">
+            <h1 data-aos="fade-right" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Popular <span>Products</span></h1>
+            <p data-aos="fade-left" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem?</p>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="./imgs/bu1.jpg" alt="">
+                </div>
+                <h1>Brandedn Shoes</h1>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$500.00</p>
+                    <button>add to cart</button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./imgs/bu2.jpg" alt="">
+                </div>
+                <h1>Brandedn Shoes</h1>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$500.00</p>
+                    <button>add to cart</button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./imgs/bu3.jpg" alt="">
+                </div>
+                <h1>Brandedn Shoes</h1>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$500.00</p>
+                    <button>add to cart</button>
+                </span>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./imgs/bu4.jpg" alt="">
+                </div>
+                <h1>Brandedn Shoes</h1>
+                <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p>$500.00</p>
+                    <button>add to cart</button>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!----- popular product end ----->
+
+    <!----- Trends start ----->
+
+    <section class="trends">
+        <div class="product-intro">
+            <h1 data-aos="fade-right" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">Top <span>Trends</span></h1>
+            <p data-aos="fade-left" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem?</p>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./imgs/headphone1.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./imgs/headphone2.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./imgs/headphone3.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./imgs/headphone1.png" alt="">
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </div>
+    </section>
+
+    <!----- Trends end ----->
+
+    <!----- Footer start ----->
+
+
+    <footer>
+        <div>
+            <h1>Apni <span>Dukan</span></h1>
+            <p>Everything for Kids world</p>
+        </div>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <p><br>Design by Rizwan here</p>
+        </div>
+        <div>
+            <p>@2025 copyright All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!----- Footer end ----->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 1200,
+                modifier: 1,
+                slideShadows: false,
+            },
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableoninteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+    <script>
+        // Get the "Coming Soon" button
+        const comingSoonBtn = document.querySelector('#comingSoonBtn');
+
+        // Products data (Men's wear and Headphones)
+        const comingSoonProducts = [
+            { category: 'Men\'s Wear', name: 'Casual Shirt', price: '$50.00', image: 'https://i.pinimg.com/originals/60/fb/47/60fb476c0cbf36633eb43511cd747a7f.jpg' },
+            { category: 'Men\'s Wear', name: 'Jeans', price: '$60.00', image: 'https://cdnb.lystit.com/photos/macys/612374-Cliff-927e7ba3-.jpeg' },
+            { category: 'Men\'s Wear', name: 'Jacket', price: '$100.00', image: 'https://vascarabag.com/wp-content/uploads/2023/02/1-6.jpeg' },
+            { category: 'Headphones', name: 'Wireless Headphone', price: '$150.00', image: 'https://images-na.ssl-images-amazon.com/images/I/71Rz4nN%2BNFL._AC_SL1500_.jpg' },
+            { category: 'Headphones', name: 'Noise Cancelling Headphone', price: '$200.00', image: 'https://cdn-s3.touchofmodern.com/products/001/970/815/1879bcbd227141894c6a97b0aa43cc38_large.jpg?1600990567' }
+        ];
+
+        // Function to show coming soon products with an overlay
+        comingSoonBtn.addEventListener('click', () => {
+            // Create the overlay container
+            const overlay = document.createElement('div');
+            overlay.classList.add('overlay');
+
+            // Create a content section inside the overlay for the products
+            const overlayContent = document.createElement('div');
+            overlayContent.classList.add('overlay-content');
+
+            // Add a close button for the overlay
+            const closeBtn = document.createElement('button');
+            closeBtn.textContent = 'Close';
+            closeBtn.classList.add('close-btn');
+            closeBtn.addEventListener('click', () => {
+                overlay.remove(); // Remove the overlay when close button is clicked
+            });
+
+            // Append the close button to overlay content
+            overlayContent.appendChild(closeBtn);
+
+            // Loop through the products data and create product elements
+            comingSoonProducts.forEach(product => {
+                const productDiv = document.createElement('div');
+                productDiv.classList.add('product');
+
+                // Product image
+                const img = document.createElement('img');
+                img.src = product.image;
+                img.alt = product.name;
+                img.classList.add('product-img');
+
+                // Product details
+                const productName = document.createElement('h3');
+                productName.textContent = product.name;
+
+                const productCategory = document.createElement('p');
+                productCategory.textContent = `Category: ${product.category}`;
+
+                const productPrice = document.createElement('p');
+                productPrice.textContent = `Price: ${product.price}`;
+
+                productDiv.appendChild(img);
+                productDiv.appendChild(productName);
+                productDiv.appendChild(productCategory);
+                productDiv.appendChild(productPrice);
+
+                overlayContent.appendChild(productDiv);
+            });
+
+            // Append the content to the overlay
+            overlay.appendChild(overlayContent);
+
+            // Append the overlay to the body (this will display the overlay on the page)
+            document.body.appendChild(overlay);
+        });
+
+    </script>
+    <script>
+        // Select the cart icon element
+        const cartIcon = document.querySelector('.nav2-right i');
+
+        // Select all product "Add to Cart" buttons
+        const cartButtons = document.querySelectorAll('.card button');
+
+        // Initialize the cart array
+        let cart = [];
+
+        // Function to add products to the cart
+        cartButtons.forEach(button => {
+            button.addEventListener('click', (event) => {
+                const card = event.target.closest('.card'); // Get the parent card
+
+                // Extract product details
+                const productName = card.querySelector('h1').textContent;
+                const productPrice = parseFloat(card.querySelector('p').textContent.replace('$', ''));
+
+                // Check if the product already exists in the cart
+                let existingProduct = cart.find(item => item.name === productName);
+
+                if (existingProduct) {
+                    existingProduct.quantity++;
+                } else {
+                    cart.push({
+                        name: productName,
+                        price: productPrice,
+                        quantity: 1
+                    });
+                }
+
+                alert(`${productName} added to cart!`);
+                console.log('Current Cart:', cart);
+            });
+        });
+
+        // Event to show cart contents on cart icon click
+        cartIcon.addEventListener('click', () => {
+            // Create a simple cart display
+            let cartContent = '<h2>Cart Items:</h2>';
+            let subTotal = 0;
+
+            if (cart.length === 0) {
+                cartContent += '<p>No items in the cart</p>';
+            } else {
+                cart.forEach(item => {
+                    const itemTotal = item.price * item.quantity;
+                    subTotal += itemTotal;
+
+                    cartContent += `<p>${item.name} - $${item.price} x ${item.quantity} = $${itemTotal.toFixed(2)}</p>`;
+                });
+
+                cartContent += `<h3>Sub-total: $${subTotal.toFixed(2)}</h3>`;
+            }
+
+            // Display the cart items in a new window
+            const cartWindow = window.open('', '_blank');
+            cartWindow.document.write(`
+    <html>
+      <head>
+        <title>Cart</title>
+        <style>
+          body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+          }
+          h2, h3 {
+            color: #333;
+          }
+          p {
+            font-size: 18px;
+          }
+        </style>
+      </head>
+      <body>
+        ${cartContent}
+      </body>
+    </html>
+  `);
+        });
+
+    </script>
+    <script>
+        // Select the "Find" icon
+        const findIcon = document.querySelector('.fa-magnifying-glass');
+
+        // Variable to track if search box is open
+        let searchBoxOpen = false;
+
+        // Function to create and show search box
+        findIcon.addEventListener('click', () => {
+            // Toggle search box visibility
+            if (searchBoxOpen) {
+                closeSearchBox();
+            } else {
+                openSearchBox();
+            }
+        });
+
+        // Function to open search box with full-screen background
+        function openSearchBox() {
+            // Create overlay background
+            const overlay = document.createElement('div');
+            overlay.classList.add('overlay');
+
+            // Create the search input box
+            const searchBox = document.createElement('input');
+            searchBox.setAttribute('type', 'text');
+            searchBox.setAttribute('placeholder', 'Type to search...');
+            searchBox.classList.add('search-box');
+
+            // Style the search box and overlay (full-screen)
+            overlay.style.position = 'fixed';
+            overlay.style.top = '0';
+            overlay.style.left = '0';
+            overlay.style.width = '100vw';
+            overlay.style.height = '100vh';
+            overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
+            overlay.style.zIndex = '1000';
+            overlay.style.display = 'flex';
+            overlay.style.justifyContent = 'center';
+            overlay.style.alignItems = 'center';
+
+            searchBox.style.padding = '15px';
+            searchBox.style.fontSize = '18px';
+            searchBox.style.border = 'none';
+            searchBox.style.borderRadius = '5px';
+            searchBox.style.width = '80%';
+            searchBox.style.maxWidth = '500px';
+            searchBox.style.outline = 'none';
+
+            // Append overlay and search box to body
+            overlay.appendChild(searchBox);
+            document.body.appendChild(overlay);
+
+            // Focus on the search box
+            searchBox.focus();
+
+            // Set searchBoxOpen flag to true
+            searchBoxOpen = true;
+
+            // Close search box if user clicks on the overlay
+            overlay.addEventListener('click', (event) => {
+                if (event.target === overlay) {
+                    closeSearchBox();
+                }
+            });
+        }
+
+        // Function to close the search box
+        function closeSearchBox() {
+            // Remove the overlay and search box
+            const overlay = document.querySelector('.overlay');
+            if (overlay) {
+                overlay.remove();
+            }
+            searchBoxOpen = false;
+        }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+</body>
+<script>
+    AOS.init();
+  </script>
+</html>
